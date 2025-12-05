@@ -23,7 +23,7 @@ int main() {
     char texto[100];
     const int MAX_TAMANO = sizeof(texto);
     
-    printf("--- Calculadora de Longitud de Cadena ---\n");
+    printf("Calculadora de Longitud de Cadena\n");
     printf("Ingrese un texto (max %d caracteres): ", MAX_TAMANO - 1);
     
     if (fgets(texto, MAX_TAMANO, stdin) == NULL) {
@@ -38,4 +38,5 @@ int main() {
     printf("La longitud de la cadena (Dimension) es: %d\n", largo_cadena);
     
     return 0;
+
 }
